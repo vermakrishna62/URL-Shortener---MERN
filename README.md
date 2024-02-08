@@ -43,6 +43,11 @@ Our URL Shortener simplifies the process of managing and sharing lengthy URLs. W
 - Implementation of JWT-based authentication for secure user authentication and authorization.
 - Encryption and hashing techniques to protect sensitive user information.
 
+### SNAPSHOTS
+
+![image](https://github.com/vermakrishna62/URL-Shortener_MERN/assets/66963248/dde43a8a-e557-4f2f-a84e-37d507c1cbb6)
+
+
 ## Usage
 
 To use the URL Shortener, follow these steps:
@@ -54,7 +59,7 @@ To use the URL Shortener, follow these steps:
 
 ## Contributing
 
-We welcome contributions to enhance the functionality and security of our URL Shortener. Feel free to submit pull requests or open issues for any suggestions or bug fixes.
+I welcome contributions to enhance the functionality and security of our URL Shortener. Feel free to submit pull requests or open issues for any suggestions or bug fixes.
 
 ## License
 
