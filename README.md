@@ -47,6 +47,18 @@ Our URL Shortener simplifies the process of managing and sharing lengthy URLs. W
 
 ![image](https://github.com/vermakrishna62/URL-Shortener_MERN/assets/66963248/dde43a8a-e557-4f2f-a84e-37d507c1cbb6)
 
+![image](https://github.com/vermakrishna62/URL-Shortener_MERN/assets/66963248/59b930c4-6453-4d8c-8d17-4bc94ac9909a)
+
+![image](https://github.com/vermakrishna62/URL-Shortener_MERN/assets/66963248/4baf1351-271c-459f-a650-4465001e597e)
+
+![image](https://github.com/vermakrishna62/URL-Shortener_MERN/assets/66963248/9e80baad-fb3f-4067-b90d-eb6977d5e7c4)
+
+![image](https://github.com/vermakrishna62/URL-Shortener_MERN/assets/66963248/7f77e9fa-3d1d-4636-86df-ad3f4569ef53)
+
+![image](https://github.com/vermakrishna62/URL-Shortener_MERN/assets/66963248/4fd9f672-eb16-40e4-aa86-11f2856d24d2)
+
+![image](https://github.com/vermakrishna62/URL-Shortener_MERN/assets/66963248/777f34f0-49d4-49ab-b045-e2426e8abdf2)
+
 
 ## Usage
 
