@@ -15,7 +15,11 @@ const Login = () => {
   return (
     <div className="auth">
       <div className="auth__container">
-        <img src={`${process.env.PUBLIC_URL}/assets/images/logo.png`} alt="" />
+        <img
+          src={`${process.env.PUBLIC_URL}/assets/images/logo.png`}
+          style={{ height: "100px" }}
+          alt=""
+        />
         <div className="auth__form">
           <TextInput
             label="Email"
@@ -42,13 +46,16 @@ const Login = () => {
         </div>
         <div className="auth__action">
           <Button label="Login" onClick={() => login(loginPayload, navigate)} />
-          <p>
-            No account yet? <Link to="/signup">Signup</Link>{" "}
+          <p style={{ marginTop: 20 }}>
+            No account yet?{" "}
+            <Link to="/signup">
+              <span>Signup</span>
+            </Link>{" "}
           </p>
-          <p>
+          {/* <p>
             {" "}
             <Link to="/forgot-password">Forgot password?</Link>{" "}
-          </p>
+          </p> */}
         </div>
       </div>
     </div>

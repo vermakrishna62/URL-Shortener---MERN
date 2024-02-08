@@ -47,7 +47,19 @@ const UrlTable: React.FC<Props> = ({ columns, rows }) => {
           {rows.map((row) => (
             <tr key={row.id}>
               {columns.map((column) => (
-                <td key={row.id + column.field}>{row[column.field]}</td>
+                <td key={row.id + column.field}>
+                  {column.field === "urlCode" ? (
+                    <a
+                      href={row.urlCode}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {row.urlCode.substring(row.urlCode.lastIndexOf("/") + 1)}
+                    </a>
+                  ) : (
+                    row[column.field]
+                  )}
+                </td>
               ))}
             </tr>
           ))}

@@ -158,13 +158,20 @@ const Dashboard = observer(() => {
 
       {Boolean(urlData.length) && !urlDataLoading && (
         <>
-          {renderEditModal()} <h3>Shortened url list</h3>
-          <UrlTable
-            columns={tableColumn}
-            rows={urlData.map((_) =>
-              convertRowDataToTableData(_, setEditUrlData, setIsEditDialogOpen)
-            )}
-          />
+          <div style={{ marginTop: 50 }}>
+            {renderEditModal()}{" "}
+            <h3 style={{ marginBottom: 15 }}>Shortened url list</h3>
+            <UrlTable
+              columns={tableColumn}
+              rows={urlData.map((_) =>
+                convertRowDataToTableData(
+                  _,
+                  setEditUrlData,
+                  setIsEditDialogOpen
+                )
+              )}
+            />
+          </div>
         </>
       )}
     </div>
