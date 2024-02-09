@@ -2,6 +2,10 @@
 
 Welcome to our URL Shortener project repository, developed using the MERN (MongoDB, Express.js, React.js, Node.js) stack. This document provides an overview of the application's functionalities and key components.
 
+### Video Link
+
+https://drive.google.com/file/d/1JULikMH1uiihP01sBbq3TdXMgrHBOxjj/view?usp=sharing
+
 ## Overview
 
 Our URL Shortener simplifies the process of managing and sharing lengthy URLs. With this application, users can input long web addresses and obtain shortened versions, making them more readable and user-friendly. Additionally, when visitors access these shortened URLs, they are seamlessly redirected to the original long URL, ensuring a smooth user experience.
